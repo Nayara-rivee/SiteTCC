@@ -79,7 +79,7 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="faleconosco.php">Fale conosco</a>
+                                        <a href="src/pages/faleconosco.php">Fale conosco</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#empresa">Sobre a empresa</a>
