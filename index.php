@@ -36,16 +36,6 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar">
-        <div class="logo">Aurora Ability IT</div>
-        <ul class="menu">
-            <li><a href="index.php">Início</a></li>
-            <li><a href="sobre.php">Sobre</a></li>
-            <li><a href="planos.php">Planos</a></li>
-            <li><a href="acessibilidade.php">Acessibilidade</a></li>
-            <li><a href="contato.php">Contato</a></li>
-        </ul>
-    </nav> -->
 
     <!-- ======== header start ======== -->
     <header class="header">
@@ -78,20 +68,25 @@
                                         <a class="page-scroll active" href="#home">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#features">Features</a>
+                                        <a class="page-scroll" href="#servicos">Serviços</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#about">About</a>
+                                        <a class="page-scroll" href="planos.php">Planos e Templates</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#why">Why</a>
+                                        <a class="page-scroll" href="#redes">Redes</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="faleconosco.php">Fale conosco</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="javascript:void(0)">Pricing</a>
+                                        <a href="#empresa">Sobre a empresa</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)">Clients</a>
+
+                                    <li class="nav-item-login">
+                                        <a href="login.php">Login</a>
                                     </li>
                                 </ul>
                             </div>
@@ -138,7 +133,7 @@
     <!-- ======== hero-section end ======== -->
 
     <!-- ======== feature-section start ======== -->
-    <section id="features" class="feature-section pt-120">
+    <section id="servicos" class="feature-section pt-120">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-8 col-sm-10">
@@ -194,15 +189,14 @@
     <!-- Features Section -->
     <section class="features-section">
         <div class="features-left">
-            <h2>Crafted for Startup, SaaS and Business Sites.</h2>
-            <p>The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables.</p>
+            <h2>Deseja ter um aplicativo? Venha nos conhecer</h2>
+            <p>Se você está precisando de um aplicativo para seu negócio, com a gente você pode ter isso na palma de sua mão </p>
             <ul class="checklist">
                 <li>Premium quality</li>
-                <li>Next.js</li>
                 <li>Tailwind CSS</li>
                 <li>Rich documentation</li>
-                <li>Use for lifetime</li>
-                <li>Developer friendly</li>
+                <li>React Native</li>
+                <li>Node.js</li>
             </ul>
         </div>
         <div class="features-right">
@@ -214,42 +208,45 @@
     <section class="details-section">
         <div class="details-img"></div>
         <div class="details-content">
-            <h4>Bug free code</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4>Criando seu site</h4>
+            <p>Nós, da Aurora Ability IT, oferecemos diversos serviços na construção de seu site, que melhor se encaixa no seu orçamento </p>
 
-            <h4>Premier support</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            <h4>Sites Básicos</h4>
+            <p>Ideal para quem está começando</p>
 
-            <h4>Next.js</h4>
-            <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt consectetur adipiscing elit setim.</p>
+            <h4>Sites Intermediários</h4>
+            <p>Para pequenas empresas.</p>
+
+            <h4>Sites Profissionais</h4>
+            <p>Para empresas que precisam de mais recursos</p>
         </div>
     </section>
 
     <!-- Call To Action Section -->
     <section class="section-cta cta">
         <div class="section-cta-text">
-            <h2>What are you waiting for?</h2>
-            <p>Our AI writing tool is designed to empower you with exceptional writing capabilities, making the writing process more efficient, accurate, and enjoyable.</p>
-            <button>Get Started for Free</button>
+            <h2>Instale SiteHelper para ficar por dentro de seu projeto</h2>
+            <p>Para maior segurança e acompanhamento no seu projeto, baixe nosso aplicativo para não perder nenhuma novidade nele</p>
+            <button>Baixe Agora</button>
         </div>
     </section>
 
     <!-- Comunidade Form Section -->
     <section class="section">
-        <h2>Contact With Us</h2>
-        <p>Our AI writing tool is designed to empower you with exceptional writing capabilities, making the writing process more efficient, accurate, and enjoyable.</p>
-        <form class="contact-form">
+        <h2>Comunidade</h2>
+        <p>Venha fazer parte de nossa comunidade para não ficar por fora de nunha novidade</p>
+        <form class="contact-form" name="form1" id="form1" method="post" action="#">
             <div class="form-row">
-                <input type="text" placeholder="Enter your Name">
-                <input type="email" placeholder="Enter your Email">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
             </div>
             <textarea placeholder="Type your message"></textarea>
-            <button type="submit">Send Message</button>
+            <button type="submit">Entrar Na Comunidade</button>
         </form>
     </section>
 
-    <div id="home" class="header_hero">
-        <ul class="header_social d-none d-lg-block">
+    <div id="empresa" class="header_hero">
+        <ul id="redes" class="header_social d-none d-lg-block">
             <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
             <li><a href="#"><i class="bi bi-github"></i></a></li>
             <li><a href="#"><i class="bi bi-instagram"></i></a></li>
@@ -259,11 +256,16 @@
             <div class="row align-items-center justify-content-center justify-content-lg-between">
                 <div class="col-lg-6">
                     <div class="header_hero_content mt-45">
-                        <h5 class="header_sub_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Hello</h5>
-                        <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">You are using free lite version of Freelancer</h2>
-                        <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Please, purchase full version to get all elements, features, footer credit removal permission and commercial license</span>
-                        <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                        <a href="https://rebrand.ly/freelancer-ud" rel="nofollow" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s">Purchase Now</a>
+                        <div class="hero-texts">
+                            <h5 class="header_sub_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Espera</h5>
+                            <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Você sabe quem é a Aurora Ability?</h2>
+                            <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">A Aurora Ability nasceu de um grupo de jovens estudantes, cada um com sua perspectiva única e experiências diversas.</span>
+                            <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Unidos por um propósito comum, eles decidiram transformar o mundo digital em um espaço mais acessível e acolhedor para todos. As ideias inovadoras de cada um, combinadas com a paixão por criar um ambiente digital inclusivo, deram origem à Aurorability, uma empresa que busca fazer a diferença na vida de todos os usuários.</p>
+                            <div class="buttons">
+                                <a href="https://rebrand.ly/freelancer-ud" rel="nofollow" class="main-btn-one wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s">Saiba Mais</a>
+                                <a href="#servicos" rel="nofollow" class="main-btn-two wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s">Nossos Serviços</a>
+                            </div>
+                        </div>
                     </div> <!-- header hero content -->
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-7">
@@ -278,15 +280,15 @@
 
     <!-- Blog Section -->
     <section class="section">
-        <h2>Latest Blogs & News</h2>
-        <p>Our AI writing tool is designed to empower you with exceptional writing capabilities, making the writing process more efficient, accurate, and enjoyable.</p>
+        <h2>Nossos Projetos</h2>
+        <p>Conheça outros projetos nossos</p>
         <div class="blogs">
             <div class="blog-card">
-                <img src="https://placehold.co/600x300/8e44ad/fff?text=Blog+1" alt="Blog 1">
+                <img src="src/img/projetos/projeto1.jpeg" alt="Blog 1">
                 <div class="blog-tags"><span>Design</span><span>Engineering</span></div>
                 <div class="blog-content">
-                    <h3>Revolution in Content Creation and Communication</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt...</p>
+                    <h3>Website Computação Quântica</h3>
+                    <p>Website que é a base de uma introdução aos conhecimentos sobre a computação quÂntica</p>
                     <div class="blog-footer">
                         <span>👤 Alex Demo</span>
                         <span>📅 25 Mar, 2025</span>
@@ -294,11 +296,11 @@
                 </div>
             </div>
             <div class="blog-card">
-                <img src="https://placehold.co/600x300/6c5ce7/fff?text=Blog+2" alt="Blog 2">
+                <img src="src/img/projetos/projeto2.jpeg" alt="Blog 2">
                 <div class="blog-tags"><span>Development</span><span>Security</span></div>
                 <div class="blog-content">
-                    <h3>How AI Writing Tools Empower Writers to Speed up their Writing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt...</p>
+                    <h3>Website de jogos</h3>
+                    <p>Website de desenvolvimento de jogos.</p>
                     <div class="blog-footer">
                         <span>👤 Hendary Jonson</span>
                         <span>📅 12 Feb, 2025</span>
