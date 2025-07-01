@@ -15,6 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
@@ -139,119 +140,146 @@
     <!-- ======== hero-section end ======== -->
 
     <!-- ======== feature-section start ======== -->
-    <section id="servicos" class="feature-section pt-120">
+    <section id="servicos" class="py-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8 col-sm-10">
+            <div class="row text-center justify-content-center">
+
+                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="single-feature">
-                        <div class="icon">
-                            <i class='bxr  bx-code'></i>
+                        <div class="icon-circle">
+                            <i class='bx bx-code'></i>
                         </div>
-                        <div class="content">
-                            <h3>Sites Responsivos</h3>
-                            <p>Sites que se adaptam a qualquer dispositivo, proporcionando a melhor experiência ao usuário.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8 col-sm-10">
-                    <div class="single-feature">
-                        <div class="icon">
-                            <i class='bxr  bx-store-alt-2'></i>
-                        </div>
-                        <div class="content">
-                            <h3>Lojas Virtuais</h3>
-                            <p>Comércio eletrônico moderno com design atrativo e ferramentas para aumentar suas vendas.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8 col-sm-10">
-                    <div class="single-feature">
-                        <div class="icon">
-                            <i class='bxr  bx-pencil-draw'></i>
-                        </div>
-                        <div class="content">
-                            <h3>Otimização SEO</h3>
-                            <p>Melhoramos o posicionamento do seu site no Google e atraímos mais visitantes qualificados.</p>
-                        </div>
+                        <h5>Sites Responsivos</h5>
+                        <p>Sites que se adaptam a qualquer dispositivo, proporcionando a melhor experiência ao usuário.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-8 col-sm-10">
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="single-feature">
-                        <div class="icon">
-                            <i class='bxr  bx-mobile'></i>
+                        <div class="icon-circle">
+                            <i class='bx bx-store-alt-2'></i>
                         </div>
-                        <div class="content">
-                            <h3>Desenvolvimento Mobile</h3>
-                            <p>Curabitur aliquet quam id dui posuere blandit. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat.</p>
-                        </div>
+                        <h5>Lojas Virtuais</h5>
+                        <p>Comércio eletrônico moderno com design atrativo e ferramentas para aumentar suas vendas.</p>
                     </div>
                 </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="single-feature">
+                        <div class="icon-circle">
+                            <i class='bx bx-pencil'></i>
+                        </div>
+                        <h5>Otimização SEO</h5>
+                        <p>Melhoramos o posicionamento do seu site no Google e atraímos mais visitantes qualificados.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="single-feature">
+                        <div class="icon-circle">
+                            <i class='bx bx-mobile'></i>
+                        </div>
+                        <h5>Desenvolvimento Mobile</h5>
+                        <p>Aplicativos com design moderno e foco em usabilidade, performance e integração com sistemas web.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
+
     <!-- ======== feature-section end ======== -->
-
-    <!-- Features Section -->
-    <section class="features-section">
-        <div class="features-left">
-            <h2>Deseja ter um aplicativo? Venha nos conhecer</h2>
-            <p>Se você está precisando de um aplicativo para seu negócio, com a gente você pode ter isso na palma de sua mão </p>
-            <ul class="checklist">
-                <li>Premium quality</li>
-                <li>Tailwind CSS</li>
-                <li>Rich documentation</li>
-                <li>React Native</li>
-                <li>Node.js</li>
-            </ul>
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <small class="text-uppercase text-secondary fw-bold">Planos</small>
+            <h2 class="fw-bold mt-2">Nossos <span class="text-primary">Planos</span></h2>
         </div>
-        <div class="features-right">
-            <div class="features-image">
-                
+
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="tour-card position-relative">
+                    <div class="position-relative">
+                        <img src="https://via.placeholder.com/600x400?text=Beach" alt="Beach" class="tour-image">
+                        <span class="price-tag">$2,150</span>
+                    </div>
+                    <div class="p-3">
+                        <h5 class="fw-bold">Serene Beach Retreat</h5>
+                        <p class="small text-muted">Mauris ipsum neque, cursus ac ipsum at, iaculis facilisis ligula.
+                            Suspendisse non sapien vel enim cursus semper.</p>
+                        <div class="mb-2">
+                            <span class="location-badge">Maldives</span>
+                            <span class="location-badge">Seychelles</span>
+                            <span class="location-badge">Bora Bora</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-primary btn-sm">Book Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="tour-card position-relative">
+                    <div class="position-relative">
+                        <img src="https://via.placeholder.com/600x400?text=Arctic" alt="Arctic" class="tour-image">
+                        <span class="price-tag">$5,700</span>
+                    </div>
+                    <div class="p-3">
+                        <h5 class="fw-bold">Arctic Wilderness Expedition</h5>
+                        <p class="small text-muted">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                            posuere cubilia Curae; Donec dictum non massa nec fermentum.</p>
+                        <div class="mb-2">
+                            <span class="location-badge">Greenland</span>
+                            <span class="location-badge">Iceland</span>
+                            <span class="location-badge">Norway</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-primary btn-sm">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="tour-card position-relative">
+                    <div class="position-relative">
+                        <img src="src/img/image.png" alt="Sahara" class="tour-image">
+                        <span class="price-tag">$1,400</span>
+                    </div>
+                    <div class="p-3">
+                        <h5 class="fw-bold">Sahara Desert Discovery</h5>
+                        <p class="small text-muted">Pellentesque euismod tincidunt turpis ac tristique. Em lacus in enim
+                            mollis facilisis vel quis ex.</p>
+                        <div class="mb-2">
+                            <span class="location-badge">Morocco</span>
+                            <span class="location-badge">Egypt</span>
+                            <span class="location-badge">Dubai</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-primary btn-sm">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
-
-    <!-- Details Section -->
-    <section class="details-section">
-        <div class="details-img"><img src="src/img/site.png" alt=""></div>
-        <div class="details-content">
-            <h4>Criando seu site</h4>
-            <p>Nós, da Aurora Ability IT, oferecemos diversos serviços na construção de seu site, que melhor se encaixa no seu orçamento </p>
-
-            <h4>Sites Básicos</h4>
-            <p>Ideal para quem está começando</p>
-
-            <h4>Sites Intermediários</h4>
-            <p>Para pequenas empresas.</p>
-
-            <h4>Sites Profissionais</h4>
-            <p>Para empresas que precisam de mais recursos</p>
-        </div>
-    </section>
+    </div>
 
     <!-- Call To Action Section -->
-    <section class="section-cta cta">
+    <!-- <section class="section-cta cta">
         <div class="section-cta-text">
             <h2>Instale SiteHelper para ficar por dentro de seu projeto</h2>
             <p>Para maior segurança e acompanhamento no seu projeto, baixe nosso aplicativo para não perder nenhuma novidade nele</p>
             <button>Baixe Agora</button>
         </div>
-    </section>
-
-    <!-- Comunidade Form Section -->
-    <section class="section">
-        <h2>Comunidade</h2>
-        <p>Venha fazer parte de nossa comunidade para não ficar por fora de nunha novidade</p>
-        <form class="contact-form" name="form1" id="form1" method="post" action="#">
-            <div class="form-row">
-                <input type="text" placeholder="Nome" required>
-                <input type="email" placeholder="Email" required>
-            </div>
-            <textarea placeholder="Type your message"></textarea>
-            <button type="submit">Entrar Na Comunidade</button>
-        </form>
-    </section>
+    </section> -->
 
     <div id="empresa" class="header_hero">
         <ul id="redes" class="header_social d-none d-lg-block">
@@ -369,7 +397,8 @@
     </footer>
 
     <!-- JSs -->
-
+    <!-- Bootstrap JS (opcional, mas deixado caso queira usar dropdowns, etc) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="src/js/index.js"></script>
     <script src="src/js/mod.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>

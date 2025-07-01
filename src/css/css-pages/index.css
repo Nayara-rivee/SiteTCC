@@ -491,6 +491,8 @@ height: 150px;
   }
 }
 
+
+
 /* ====== feature css ====== */
 @media (max-width: 767px) {
   .feature-section.pt-120 {
@@ -650,20 +652,89 @@ height: 150px;
   color: #b89cfe;
 }
 
+    .icon-circle {
+      width: 100px;
+      height: 100px;
+      background-color: #e0f7ff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+    }
+    .icon-circle i {
+      font-size: 2rem;
+      color: #0d4f64;
+    }
+    .single-feature h5 {
+      font-weight: bold;
+    }
+    .single-feature p {
+      font-size: 0.9rem;
+    }
 
+                .tour-card {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.2s;
+        }
+
+        .tour-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .tour-image {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .price-tag {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #000;
+            color: #fff;
+            padding: 5px 10px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            border-radius: 6px;
+        }
+
+        .label-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: teal;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: bold;
+            padding: 4px 8px;
+            border-radius: 8px;
+        }
+
+        .location-badge {
+            background-color: #e6f7fb;
+            color: #007b8e;
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 10px;
+            margin-right: 5px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        .rating {
+            font-size: 0.85rem;
+            color: #555;
+        }
 
     .section { margin: 80px auto; padding: 40px; background: #f0f0f5; border-radius: 20px; max-width: 1100px; box-shadow: 0 0 40px rgba(255, 255, 255, 0.05); }
     .section h2 { font-size: 32px; margin-bottom: 16px; text-align: center; }
     .section p { text-align: center; color:#2e2c45; margin-bottom: 32px; }
 
-    /* Contact Form */
-    .contact-form { display: flex; flex-direction: column; gap: 20px; max-width: 700px; margin: auto; }
-    .form-row { display: flex; gap: 20px; }
-    .form-row input, .contact-form textarea { flex: 1; padding: 15px; border-radius: 8px; border: none; background: #fff; color: #eee; font-size: 14px; }
-    .contact-form textarea { min-height: 120px; resize: none; }
-    .contact-form button { background: #287697; color: #fff; padding: 15px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; transition:  0.3s ease-out 0s;}
-    .contact-form button:hover { transition:  0.3s ease-out 0s; background:  #287697be}
-    .contact-form button:hover { opacity: 0.9; }
 
     /* Blog Cards */
     .blogs { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
@@ -677,7 +748,7 @@ height: 150px;
     .blog-footer { display: flex; justify-content: space-between; font-size: 12px; color: #8f8dab; }
 
     /* CTA */
-    .section-cta-text{
+    /* .section-cta-text{
       display: flex;
       flex-direction: column; 
       align-items: center; 
@@ -690,7 +761,7 @@ height: 150px;
     }
     .cta button { margin-top: 20px; padding: 15px 30px; background: none; border: 1px #fff solid; border-radius: 8px; color: white; font-weight: bold; cursor: pointer;transition:  0.3s ease-out 0s;}
     .cta button:hover { transition:  0.3s ease-out 0s; background:  #ffffff49}
-    .cta .top-text { background: rgba(255,255,255,0.05); display: inline-block; padding: 6px 18px; border-radius: 999px; font-size: 14px; color: #ccc; }
+    .cta .top-text { background: rgba(255,255,255,0.05); display: inline-block; padding: 6px 18px; border-radius: 999px; font-size: 14px; color: #ccc; } */
 
     /* Features Grid */
     .features-section { display: flex; flex-wrap: wrap; gap: 40px; justify-content: space-between; align-items: center; max-width: 1100px; margin: 100px auto; }
