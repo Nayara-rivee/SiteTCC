@@ -14,6 +14,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <!-- BOXICON  -->
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
@@ -23,11 +26,11 @@
     <link rel="stylesheet" href="src/css/css-globais/Footer.css">
 
     <!-- CSS DA PÁGINA -->
-    <link rel="stylesheet" href="src/css/index.css">
-    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="src/css/css-pages/index.css">
+    <link rel="stylesheet" href="src/css/css-pages/bootstrap.min.css" />
 
     <!-- CSS RESPONSIVO -->
-    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="src/css/css-pages/responsivo.css">
 
     <!-- JS DE ACESSIBILIDADE -->
     <script src="src/js/acessibilidade.js" defer></script>
@@ -71,7 +74,7 @@
                                         <a class="page-scroll" href="#servicos">Serviços</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="planos.php">Planos e Templates</a>
+                                        <a class="page-scroll" href="src/pages/planos.php">Planos e Templates</a>
                                     </li>
 
                                     <li class="nav-item">
@@ -110,16 +113,19 @@
                 <div class="col-lg-6">
                     <div class="hero-content">
                         <h1 class="wow fadeInUp" data-wow-delay=".4s">
-                            Your using free lite version
+                            Bem-vindo à Aurora Ability IT
                         </h1>
                         <p class="wow fadeInUp" data-wow-delay=".6s">
-                            Please, purchase full version to get all sections, features and
-                            permission to remove footer credit.
+                            Somos apaixonados por transformar ideias em experiências digitais acessíveis, funcionais e inovadoras.
+                            Na Aurora Ability, tecnologia e inclusão caminham lado a lado para criar soluções únicas, feitas sob medida para cada pessoa.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">
+                            Comece agora sua jornada digital com propósito.
                         </p>
                         <a
-                            href="javascript:void(0)"
+                            href="src/pages/planos.php"
                             class="main-btn border-btn btn-hover wow fadeInUp"
-                            data-wow-delay=".6s">Purchase Now</a>
+                            data-wow-delay=".6s">Começar agora</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -200,13 +206,15 @@
             </ul>
         </div>
         <div class="features-right">
-            <div class="features-image"></div>
+            <div class="features-image">
+                
+            </div>
         </div>
     </section>
 
     <!-- Details Section -->
     <section class="details-section">
-        <div class="details-img"></div>
+        <div class="details-img"><img src="src/img/site.png" alt=""></div>
         <div class="details-content">
             <h4>Criando seu site</h4>
             <p>Nós, da Aurora Ability IT, oferecemos diversos serviços na construção de seu site, que melhor se encaixa no seu orçamento </p>
@@ -260,42 +268,51 @@
                             <h5 class="header_sub_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Espera</h5>
                             <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Você sabe quem é a Aurora Ability?</h2>
                             <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">A Aurora Ability nasceu de um grupo de jovens estudantes, cada um com sua perspectiva única e experiências diversas.</span>
-                            <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Unidos por um propósito comum, eles decidiram transformar o mundo digital em um espaço mais acessível e acolhedor para todos. As ideias inovadoras de cada um, combinadas com a paixão por criar um ambiente digital inclusivo, deram origem à Aurorability, uma empresa que busca fazer a diferença na vida de todos os usuários.</p>
+                            <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">
+                                Unidos por um propósito comum, eles decidiram transformar o mundo digital em um espaço mais acessível e acolhedor para todos. As ideias inovadoras de cada um, combinadas com a paixão por criar um ambiente digital inclusivo, deram origem à Aurorability, uma empresa que busca fazer a diferença na vida de todos os usuários.
+                            </p>
                             <div class="buttons">
-                                <a href="https://rebrand.ly/freelancer-ud" rel="nofollow" class="main-btn-one wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s">Saiba Mais</a>
+                                <a href="src/pages/empresa.php" rel="nofollow" class="main-btn-one wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s">Saiba Mais</a>
                                 <a href="#servicos" rel="nofollow" class="main-btn-two wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s">Nossos Serviços</a>
                             </div>
                         </div>
-                    </div> <!-- header hero content -->
+                    </div>
                 </div>
+                <!-- COLUNA DO VÍDEO -->
                 <div class="col-lg-6 col-md-6 col-sm-7">
-                    <div class="header_hero_image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="1.8s">
-                        <img src="src/img/image.png" alt="hero">
-                    </div> <!-- header hero image -->
+                    <div class="header_hero_video mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="1.8s">
+                        <video autoplay muted loop playsinline class="video-fluid">
+                            <source src="src/video/hero.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeo em HTML5.
+                        </video>
+                    </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-        <div class="header_hero_shape d-none d-lg-block"></div> <!-- header hero shape -->
-    </div> <!-- header hero -->
+            </div>
+        </div>
+        <div class="header_hero_shape d-none d-lg-block"></div>
+    </div>
 
-    <!-- Blog Section -->
+
     <section class="section">
         <h2>Nossos Projetos</h2>
         <p>Conheça outros projetos nossos</p>
-        <div class="blogs">
-            <div class="blog-card">
+        <div class="blogs d-flex flex-wrap justify-content-center gap-4">
+            <!-- Card 1 -->
+            <div class="blog-card" data-bs-toggle="modal" data-bs-target="#modalProjeto1" style="cursor: pointer;">
                 <img src="src/img/projetos/projeto1.jpeg" alt="Blog 1">
                 <div class="blog-tags"><span>Design</span><span>Engineering</span></div>
                 <div class="blog-content">
                     <h3>Website Computação Quântica</h3>
-                    <p>Website que é a base de uma introdução aos conhecimentos sobre a computação quÂntica</p>
+                    <p>Website que é a base de uma introdução aos conhecimentos sobre a computação quântica</p>
                     <div class="blog-footer">
                         <span>👤 Alex Demo</span>
                         <span>📅 25 Mar, 2025</span>
                     </div>
                 </div>
             </div>
-            <div class="blog-card">
+
+            <!-- Card 2 -->
+            <div class="blog-card" data-bs-toggle="modal" data-bs-target="#modalProjeto2" style="cursor: pointer;">
                 <img src="src/img/projetos/projeto2.jpeg" alt="Blog 2">
                 <div class="blog-tags"><span>Development</span><span>Security</span></div>
                 <div class="blog-content">
@@ -307,27 +324,44 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <!-- <section class="planos">
-        <h2>Nossos Planos</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Plano Essencial</h3>
-                <p>Ideal para quem está começando. Acessibilidade básica incluída.</p>
-            </div>
-            <div class="card destaque">
-                <h3>Plano Profissional</h3>
-                <p>Design avançado + recursos para diversos tipos de deficiência.</p>
-            </div>
-            <div class="card">
-                <h3>Plano Premium</h3>
-                <p>Projeto completo, consultoria inclusiva e manutenção contínua.</p>
+    <!-- Modal Projeto 1 -->
+    <div class="modal fade" id="modalProjeto1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-white">Website Computação Quântica</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <video id="videoProjeto1" controls autoplay muted loop style="width: 100%; border-radius: 0 0 8px 8px;">
+                        <source src="src/video/quantica.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeo em HTML5.
+                    </video>
+                </div>
             </div>
         </div>
-    </section> -->
+    </div>
+
+    <!-- Modal Projeto 2 -->
+    <div class="modal fade" id="modalProjeto2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title text-white">Website de Jogos</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <video id="videoProjeto2" controls autoplay muted loop style="width: 100%; border-radius: 0 0 8px 8px;">
+                        <source src="src/video/jogos.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeo em HTML5.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer">
         <p>&copy; 2025 Aurora Ability IT. Todos os direitos reservados.</p>
@@ -336,6 +370,7 @@
 
     <!-- JSs -->
 
+    <script src="src/js/index.js"></script>
     <script src="src/js/mod.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
