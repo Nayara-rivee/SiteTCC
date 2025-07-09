@@ -1,3 +1,8 @@
+<?php
+require_once 'src/database/config.php';
+require_once 'src/database/auth.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
