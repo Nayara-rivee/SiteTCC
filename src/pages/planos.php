@@ -1,3 +1,8 @@
+<?php
+require_once '../database/config.php';
+require_once '../database/auth.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -17,7 +22,7 @@
 
 
     <!-- CSS GLOBAL -->
-    <link rel="stylesheet" href="../css-globais/navbar.css" />
+    <link rel="stylesheet" href="../css/css-globais/navbar.css" />
     <link rel="stylesheet" href="../css-globais/footer.css" />
 
     <!-- CSS DA PÁGINA -->
@@ -70,11 +75,24 @@
                                 <li class="nav-item">
                                     <a class="page-scroll active" href="../../index.php">Home</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="empresa.php">Serviços</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="planos.php">Planos</a>
+                                </li>
 
                                 <li class="nav-item">
-                                    <a href="../pages/faleconosco.php">Fale conosco</a>
+                                    <a class="page-scroll" href="empresa.php">Redes</a>
                                 </li>
-                                
+
+                                <li class="nav-item">
+                                    <a href="faleconosco.php">Fale conosco</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="empresa.php">Sobre</a>
+                                </li>
+
                                 <li class="nav-item-login">
                                     <a href="login.php">Login</a>
                                 </li>
@@ -106,7 +124,7 @@
                             <div class="row align-items-center plano">
                                 <div class="col-md-6">
                                     <h2 class="fw-bold">Plano Básico</h2>
-                                    <p >Ideal para quem está começando</p>
+                                    <p>Ideal para quem está começando</p>
                                     <ul>
                                         <li>Site simples de 1 página</li>
                                         <li>Responsivo</li>

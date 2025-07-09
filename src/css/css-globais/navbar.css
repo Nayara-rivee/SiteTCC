@@ -130,13 +130,21 @@ height: 150px;
 .navbar-nav .nav-item-login{
   position: relative;
   margin-left: 40px;
-  background: #FFF;
+  background:none;
   height: 40px;
   width: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: 10px;
+  border: 2px #fff solid;
+  transition: 0.5s ease-in-out;
+
+}
+.navbar-nav .nav-item-login:hover{
+background: #0d4f64;
+opacity: 0.5;
+transition: 0.5s ease-in-out;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -160,7 +168,7 @@ height: 150px;
 .navbar-nav .nav-item-login a {
   font-size: 18px;
   font-weight: 400;
-  color: #2e2c45;
+  color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 10px 0;

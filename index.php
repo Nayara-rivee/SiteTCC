@@ -80,7 +80,7 @@ require_once 'src/database/auth.php';
                                         <a class="page-scroll" href="#servicos">Serviços</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="src/pages/planos.php">Planos e Templates</a>
+                                        <a class="page-scroll" href="src/pages/planos.php">Planos</a>
                                     </li>
 
                                     <li class="nav-item">
@@ -91,7 +91,7 @@ require_once 'src/database/auth.php';
                                         <a href="src/pages/faleconosco.php">Fale conosco</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#empresa">Sobre a empresa</a>
+                                        <a href="#empresa">Sobre</a>
                                     </li>
 
                                     <li class="nav-item-login">
@@ -209,7 +209,7 @@ require_once 'src/database/auth.php';
             <div class="col-md-6 col-lg-4">
                 <div class="tour-card position-relative">
                     <div class="position-relative">
-                        <img src="https://via.placeholder.com/600x400?text=Beach" alt="Beach" class="tour-image">
+                        <img src="src/img/card1.jpg" alt="Beach" class="tour-image">
                         <span class="price-tag">$2,150</span>
                     </div>
                     <div class="p-3">
@@ -232,7 +232,7 @@ require_once 'src/database/auth.php';
             <div class="col-md-6 col-lg-4">
                 <div class="tour-card position-relative">
                     <div class="position-relative">
-                        <img src="https://via.placeholder.com/600x400?text=Arctic" alt="Arctic" class="tour-image">
+                        <img src="src/img/card2.jpeg" alt="Arctic" class="tour-image">
                         <span class="price-tag">$5,700</span>
                     </div>
                     <div class="p-3">
@@ -255,7 +255,7 @@ require_once 'src/database/auth.php';
             <div class="col-md-6 col-lg-4">
                 <div class="tour-card position-relative">
                     <div class="position-relative">
-                        <img src="src/img/image.png" alt="Sahara" class="tour-image">
+                        <img src="src/img/card2.webp" alt="Sahara" class="tour-image">
                         <span class="price-tag">$1,400</span>
                     </div>
                     <div class="p-3">
@@ -326,39 +326,89 @@ require_once 'src/database/auth.php';
     </div>
 
 
-    <section class="section">
-        <h2>Nossos Projetos</h2>
-        <p>Conheça outros projetos nossos</p>
-        <div class="blogs d-flex flex-wrap justify-content-center gap-4">
-            <!-- Card 1 -->
-            <div class="blog-card" data-bs-toggle="modal" data-bs-target="#modalProjeto1" style="cursor: pointer;">
-                <img src="src/img/projetos/projeto1.jpeg" alt="Blog 1">
-                <div class="blog-tags"><span>Design</span><span>Engineering</span></div>
-                <div class="blog-content">
-                    <h3>Website Computação Quântica</h3>
-                    <p>Website que é a base de uma introdução aos conhecimentos sobre a computação quântica</p>
-                    <div class="blog-footer">
-                        <span>👤 Alex Demo</span>
-                        <span>📅 25 Mar, 2025</span>
+    <!-- Header -->
+    <div class="header-projetos">
+        <h1>Nossos Projetos</h1>
+        <p class="lead text-secondary">Conheça outros projetos nossos</p>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="container pb-5">
+        <div class="row g-4">
+
+            <!-- Project 1 -->
+            <div class="col-md-6">
+                <div class="project-card p-4 h-100">
+                    <h5 class="fw-bold">EdgeRover</h5>
+                    <p class="text-muted">Case Study of Onboarding</p>
+                    <p class="small">
+                        Automatically sorted files, identified duplicates, and intelligently curated photos & albums
+                        from users’ key gadgets to cloud drives across all connected platforms.
+                    </p>
+                    <small>Sarah Lauchli · UX/UI Designer<br>12/01/2021 - 03/12/2022</small>
+                </div>
+            </div>
+
+            <!-- Project 1 Image + Modal Trigger -->
+            <div class="col-md-6">
+                <div class="image-container" data-bs-toggle="modal" data-bs-target="#videoModal1">
+                    <img src="src/img/image.png" class="project-img" alt="Project 1">
+                    <div class="play-button">
+                        <i class='bxr  bxs-play' style='color:#ffffff'></i>  
                     </div>
                 </div>
             </div>
 
-            <!-- Card 2 -->
-            <div class="blog-card" data-bs-toggle="modal" data-bs-target="#modalProjeto2" style="cursor: pointer;">
-                <img src="src/img/projetos/projeto2.jpeg" alt="Blog 2">
-                <div class="blog-tags"><span>Development</span><span>Security</span></div>
-                <div class="blog-content">
-                    <h3>Website de jogos</h3>
-                    <p>Website de desenvolvimento de jogos.</p>
-                    <div class="blog-footer">
-                        <span>👤 Hendary Jonson</span>
-                        <span>📅 12 Feb, 2025</span>
+            <!-- Project 2 -->
+            <div class="col-md-6 order-md-2">
+                <div class="project-card p-4 h-100">
+                    <h5 class="fw-bold text-danger">IRIS</h5>
+                    <p class="text-muted">Case Study</p>
+                    <p class="small">
+                        Offering fresh, confident, and clever styles for every personality—you're free to go for the
+                        style that best fits you.
+                    </p>
+                    <small>UX/UI Designer Sarah Lauchli<br>10/26/20 - 10/24/20</small>
+                </div>
+            </div>
+
+            <!-- Project 2 Image + Modal Trigger -->
+            <div class="col-md-6 order-md-1">
+                <div class="image-container" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                    <img src="src/img/image.png" class="project-img" alt="Project 2">
+                    <div class="play-button">
+                       <i class='bxr  bxs-play' style='color:#ffffff'></i> 
                     </div>
                 </div>
             </div>
+
         </div>
-    </section>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <iframe class="modal-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 1"
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <iframe class="modal-video" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="Video 2"
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Modal Projeto 1 -->
     <div class="modal fade" id="modalProjeto1" tabindex="-1" aria-hidden="true">
@@ -407,6 +457,16 @@ require_once 'src/database/auth.php';
     <script src="src/js/index.js"></script>
     <script src="src/js/mod.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<!-- JSs -->
+<!-- Bootstrap JS (opcional, mas deixado caso queira usar dropdowns, etc) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="src/js/index.js"></script>
+<script src="src/js/mod.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

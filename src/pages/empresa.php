@@ -1,3 +1,8 @@
+<?php
+require_once '../database/config.php';
+require_once '../database/auth.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -42,13 +47,26 @@
                                         <a class="page-scroll active" href="../../index.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#servicos">Serviços</a>
+                                        <a class="page-scroll" href="empresa.php">Serviços</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="planos.php">Planos</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="../pages/faleconosco.php">Fale conosco</a>
+                                        <a class="page-scroll" href="empresa.php">Redes</a>
                                     </li>
 
+                                    <li class="nav-item">
+                                        <a href="faleconosco.php">Fale conosco</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="empresa.php">Sobre</a>
+                                    </li>
+
+                                    <li class="nav-item-login">
+                                        <a href="login.php">Login</a>
+                                    </li>
                                 </ul>
                             </div>
                             <!-- navbar collapse -->
@@ -80,7 +98,9 @@
                             <div class="hero-text">
                                 <h1>On<span class="accent-text">Folio</span></h1>
                                 <h2>Aurora Ability IT</h2>
-                                <p class="description">Passionate about creating exceptional digital experiences that blend innovative design with functional development. Let's bring your vision to life.</p>
+                                <p class="description">Passionate about creating exceptional digital experiences that
+                                    blend innovative design with functional development. Let's bring your vision to
+                                    life.</p>
 
                                 <div class="social-links">
                                     <a href="#"><i class="bi bi-instagram"></i></a>
@@ -95,7 +115,8 @@
                             <div class="hero-visual">
                                 <div class="profile-container">
                                     <div class="profile-background"></div>
-                                    <img src="../img/equipe/grupo/grupo.jpeg" alt="Alexander Chen" class="profile-image">
+                                    <img src="../img/equipe/grupo/grupo.jpeg" alt="Alexander Chen"
+                                        class="profile-image">
                                     <div class="floating-elements">
                                         <div class="floating-icon icon-1"><i class="bi bi-palette"></i></div>
                                         <div class="floating-icon icon-2"><i class="bi bi-code-slash"></i></div>
@@ -122,7 +143,8 @@
                             </div>
                             <div class="content">
                                 <h3>Sites Responsivos</h3>
-                                <p>Sites que se adaptam a qualquer dispositivo, proporcionando a melhor experiência ao usuário.</p>
+                                <p>Sites que se adaptam a qualquer dispositivo, proporcionando a melhor experiência ao
+                                    usuário.</p>
                             </div>
                         </div>
                     </div>
@@ -133,7 +155,8 @@
                             </div>
                             <div class="content">
                                 <h3>Lojas Virtuais</h3>
-                                <p>Comércio eletrônico moderno com design atrativo e ferramentas para aumentar suas vendas.</p>
+                                <p>Comércio eletrônico moderno com design atrativo e ferramentas para aumentar suas
+                                    vendas.</p>
                             </div>
                         </div>
                     </div>
@@ -144,7 +167,8 @@
                             </div>
                             <div class="content">
                                 <h3>Otimização SEO</h3>
-                                <p>Melhoramos o posicionamento do seu site no Google e atraímos mais visitantes qualificados.</p>
+                                <p>Melhoramos o posicionamento do seu site no Google e atraímos mais visitantes
+                                    qualificados.</p>
                             </div>
                         </div>
                     </div>
@@ -156,7 +180,9 @@
                             </div>
                             <div class="content">
                                 <h3>Desenvolvimento Mobile</h3>
-                                <p>Curabitur aliquet quam id dui posuere blandit. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat.</p>
+                                <p>Curabitur aliquet quam id dui posuere blandit. Sed porttitor lectus nibh. Vivamus
+                                    magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
+                                    libero malesuada feugiat.</p>
                             </div>
                         </div>
                     </div>
@@ -202,9 +228,12 @@
                             </div>
 
                             <div class="description">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                    architecto beatae vitae dicta sunt explicabo.</p>
 
-                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                                    laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
                             </div>
 
                             <div class="stats-grid">
@@ -271,10 +300,14 @@
                         </div>
                     </div>
                     <div class="social-icons">
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark">
+                            <i class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i
+                                class="bi bi-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -303,10 +336,14 @@
                             <h4>Bruno Rufino</h4>
                             <p>Designer</p>
                             <div class="social-icons">
-                                <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
-                                <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
-                                <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
-                                <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://linkedin.com/in/anacode" target="_blank"
+                                    class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
+                                <a href="https://linkedin.com/in/anacode" target="_blank"
+                                    class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://linkedin.com/in/anacode" target="_blank"
+                                    class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
+                                <a href="https://linkedin.com/in/anacode" target="_blank"
+                                    class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
                         <div class="text-center">
@@ -314,10 +351,14 @@
                             <h4>Izabela Tinoco</h4>
                             <p>Designer</p>
                             <div class="social-icons">
-                                <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
-                                <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
-                                <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
-                                <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://linkedin.com/in/anacode" target="_blank"
+                                    class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
+                                <a href="https://linkedin.com/in/anacode" target="_blank"
+                                    class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://linkedin.com/in/anacode" target="_blank"
+                                    class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
+                                <a href="https://linkedin.com/in/anacode" target="_blank"
+                                    class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -352,10 +393,14 @@
                         <li>Documentação da API Aurora</li>
                     </ul>
                     <div class="social-icons">
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark">
+                            <i class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i
+                                class="bi bi-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -377,14 +422,17 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">Nayara Silva</h5>
-                                <p class="card-text">Back-end especialista em PHP e Desenvolvimento Mobile com React Native</p>
+                                <p class="card-text">Back-end especialista em PHP e Desenvolvimento Mobile com React
+                                    Native</p>
                                 <p class="mb-1">PHP</p>
                                 <div class="progress mb-2">
-                                    <div class="progress-bar bg-info" style="width: 90%; background-color: #287697 !important;">90%</div>
+                                    <div class="progress-bar bg-info"
+                                        style="width: 90%; background-color: #287697 !important;">90%</div>
                                 </div>
                                 <p class="mb-1">Laravel</p>
                                 <div class="progress mb-2">
-                                    <div class="progress-bar bg-info" style="width: 80%; background-color: #287697 !important;">80%</div>
+                                    <div class="progress-bar bg-info"
+                                        style="width: 80%; background-color: #287697 !important;">80%</div>
                                 </div>
                                 <p class="mb-1">Projetos:</p>
                                 <ul class="list-unstyled">
@@ -392,10 +440,14 @@
                                     <li>🔹 API RESTful para mobile</li>
                                 </ul>
                                 <div class="icons-rede">
-                                    <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
-                                    <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
-                                    <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
-                                    <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
+                                    <a href="https://linkedin.com/in/anacode" target="_blank"
+                                        class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
+                                    <a href="https://linkedin.com/in/anacode" target="_blank"
+                                        class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://linkedin.com/in/anacode" target="_blank"
+                                        class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
+                                    <a href="https://linkedin.com/in/anacode" target="_blank"
+                                        class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -416,11 +468,13 @@
                                 <p class="card-text">Front-end com experiência em React e UI/UX.</p>
                                 <p class="mb-1">React</p>
                                 <div class="progress mb-2">
-                                    <div class="progress-bar bg-info" style="width: 85%; background-color: #287697 !important;">85%</div>
+                                    <div class="progress-bar bg-info"
+                                        style="width: 85%; background-color: #287697 !important;">85%</div>
                                 </div>
                                 <p class="mb-1">HTML/CSS</p>
                                 <div class="progress mb-2">
-                                    <div class="progress-bar bg-info" style="width: 95%; background-color: #287697 !important;">95%</div>
+                                    <div class="progress-bar bg-info"
+                                        style="width: 95%; background-color: #287697 !important;">95%</div>
                                 </div>
                                 <p class="mb-1">Projetos:</p>
                                 <ul class="list-unstyled">
@@ -428,10 +482,14 @@
                                     <li>🔹 Dashboard interativo com React</li>
                                 </ul>
                                 <div class="icons-rede">
-                                    <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
-                                    <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
-                                    <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
-                                    <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
+                                    <a href="https://linkedin.com/in/anacode" target="_blank"
+                                        class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
+                                    <a href="https://linkedin.com/in/anacode" target="_blank"
+                                        class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
+                                    <a href="https://linkedin.com/in/anacode" target="_blank"
+                                        class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
+                                    <a href="https://linkedin.com/in/anacode" target="_blank"
+                                        class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -451,10 +509,14 @@
                     <h4>Alana</h4>
                     <p>Analisa requisitos, desenha sistemas e integra equipes.</p>
                     <div class="social-icons">
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-instagram"></i></a>
-                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark">
+                            <i class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://linkedin.com/in/anacode" target="_blank" class="btn btn-sm btn-outline-dark"><i
+                                class="bi bi-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="col-md-8">

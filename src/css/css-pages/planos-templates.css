@@ -195,17 +195,6 @@ height: 100px;
   position: relative;
   margin-left: 40px;
 }
-.navbar-nav .nav-item-login{
-  position: relative;
-  margin-left: 40px;
-  background: #FFF;
-  height: 40px;
-  width: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-nav .nav-item {
@@ -225,18 +214,7 @@ height: 100px;
   text-decoration: none;
 
 }
-.navbar-nav .nav-item-login a {
-  font-size: 18px;
-  font-weight: 400;
-  color: #2e2c45;
-  -webkit-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-  padding: 10px 0;
-  position: relative;
-  z-index: 1;
-  text-decoration: none;
 
-}
 
 
 .navbar-nav .nav-item a::before {
