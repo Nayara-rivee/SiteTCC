@@ -95,7 +95,7 @@ require_once 'src/database/auth.php';
                                     </li>
 
                                     <li class="nav-item-login">
-                                        <a href="login.php">Login</a>
+                                        <a href="src/pages/login.php">Login</a>
                                     </li>
                                 </ul>
                             </div>
@@ -196,8 +196,8 @@ require_once 'src/database/auth.php';
             </div>
         </div>
     </section>
-
     <!-- ======== feature-section end ======== -->
+
     <div class="container py-5">
         <div class="text-center mb-5">
             <small class="text-uppercase text-secondary fw-bold">Planos</small>

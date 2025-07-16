@@ -51,6 +51,9 @@
   transition: all 0.3s ease-out 0s;
   padding: 20px 0;
 }
+.navbar .nav-item .page-scroll{
+  color: #fff;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar {
@@ -179,13 +182,13 @@ transition: 0.5s ease-in-out;
 }
 
 
-.navbar-nav .nav-item a::before {
+.navbar .navbar-nav .nav-item a::before {
   content: "";
   position: absolute;
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #7096ca;
+  background: #287697;
   bottom: 15px;
   left: 0;
   z-index: -1;

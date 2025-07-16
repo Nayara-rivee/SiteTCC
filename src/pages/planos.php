@@ -41,7 +41,7 @@ require_once '../database/auth.php';
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -133,7 +133,7 @@ require_once '../database/auth.php';
                                     </ul>
                                 </div>
                                 <div class="col-md-6 position-relative">
-                                    <img src="../img/imagem1.jpeg" class="d-block w-100 rounded shadow"
+                                    <img src="../img/card1.jpg" class="d-block w-100 rounded shadow"
                                         alt="Plano Básico" />
                                 </div>
                             </div>
@@ -153,7 +153,7 @@ require_once '../database/auth.php';
                                     </ul>
                                 </div>
                                 <div class="col-md-6 position-relative">
-                                    <img src="../img/imagem2.jpeg" class="d-block w-100 rounded shadow"
+                                    <img src="../img/card2.jpeg" class="d-block w-100 rounded shadow"
                                         alt="Plano Intermediário" />
                                 </div>
                             </div>
@@ -175,7 +175,7 @@ require_once '../database/auth.php';
                                     </ul>
                                 </div>
                                 <div class="col-md-6 position-relative">
-                                    <img src="../img/imagem1.jpeg" class="d-block w-100 rounded shadow"
+                                    <img src="../img/card2.webp" class="d-block w-100 rounded shadow"
                                         alt="Plano Profissional" />
                                 </div>
                             </div>
@@ -199,28 +199,52 @@ require_once '../database/auth.php';
     </div>
 
     <div class="vendas">
-        <h1>Confira os Nossos Serviços extras para seus sonhos</h1>
+        <div class="text-center mb-5">
+            <small class="text-uppercase text-secondary fw-bold">EXTRA</small>
+            <h2 class="fw-bold mt-2">Nossos Serviços <span class="text-primary">Extras</span></h2>
+        </div>
     </div>
     <div class="extras-section container mt-5">
+        <h2 class="extras-title">Itens adicionais que podem ser combinados com qualquer plano:</h2>
+        <section id="servicos" class="py-5">
+            <div class="container">
+                <div class="row text-center justify-content-center">
 
-        <h2 class="extras-title">Serviços Extras</h2>
-        <p class="extras-subtitle">Itens adicionais que podem ser combinados com qualquer plano:</p>
-        <ul class="extras-list">
-            <li>✅ Versão em inglês/espanhol (tradução + layout) — <strong>+ R$ 398</strong></li>
-            <li>✅ Design de ícones e logotipo simples — <strong>R$ 150 - R$ 299</strong></li>
-        </ul>
-    </div>
+                    <!-- Card 1 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="single-feature">
+                            <div class="icon-circle">
+                                <i class="bi bi-badge-cc"></i>
+                            </div>
+                            <p>Versão em inglês/espanhol (tradução + layout) — <strong>+ R$ 398</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="single-feature">
+                            <div class="icon-circle">
+                                <i class="bi bi-pencil"></i>
+                            </div>
+                            <p>Design de ícones e logotipo simples — <strong>R$ 150 - R$ 299</strong></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="header_hero_shape d-none d-lg-block"></div>
     </div>
     <br><br><br><br><br>
 
 
-    </main>
-    </div>
-
     <!--tipo dos sites -->
 
-    <div class="container py-5">
-        <h2 class="text-center mb-5">Modelos de Sites por Plano</h2>
+    <div class="container2 py-5">
+        <div class="text-center mb-5">
+            <small class="text-uppercase text-secondary fw-bold">NOSSOS</small>
+            <h2 class="fw-bold mt-2">Modelos de <span class="text-primary">Site</span></h2>
+        </div>
         <div class="sites row g-4">
 
             <!-- === PLANO BÁSICO === -->

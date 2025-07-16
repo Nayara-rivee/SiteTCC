@@ -1,14 +1,17 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: radial-gradient(circle, #2e4478 0%, #1b1c1e 100%);
-  color: #000;
+  background: linear-gradient(to right, #0ab8a1cb, #89d3ddc0);
 }
 
 form{
-  background: #70707060;
+  background: #89d3ddc0;
 }
 
+.container h3{
+  color: #fff;
+  text-align: justify;
+}
 .container h2{
   color: #fff;
   text-align: justify;
@@ -31,17 +34,22 @@ form{
 }
 
 .container .input-group-text i{
-  color: #2e4478;
+  color: #000;
   font-size: 20px;
 }
 
 .container button{
-  background: #7096ca;
+  background:#0ab8a1cb;
   color: #fff;
+  border: none;
+  transition: 0.5s ease-in-out;
 }
 .container button:hover{
-  background: #7095caaf;
+  background: #0ab8a170;
   color: #fff;
+  border: 2px #fff  solid;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
 }
 
  .icon{

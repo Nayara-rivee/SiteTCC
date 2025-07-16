@@ -14,6 +14,7 @@ require_once '../database/auth.php';
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/css-pages/empresa.css">
+    <link rel="stylesheet" href="../css/css-globais/navbar.css">
 </head>
 
 <body>
@@ -58,14 +59,14 @@ require_once '../database/auth.php';
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="faleconosco.php">Fale conosco</a>
+                                        <a class="page-scroll" href="faleconosco.php">Fale conosco</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="empresa.php">Sobre</a>
+                                        <a class="page-scroll" href="empresa.php">Sobre</a>
                                     </li>
 
                                     <li class="nav-item-login">
-                                        <a href="login.php">Login</a>
+                                        <a class="page-scroll" href="login.php">Login</a>
                                     </li>
                                 </ul>
                             </div>
@@ -96,7 +97,7 @@ require_once '../database/auth.php';
 
                         <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                             <div class="hero-text">
-                                <h1>On<span class="accent-text">Folio</span></h1>
+                                <h1>Porti<span class="accent-text">folio</span></h1>
                                 <h2>Aurora Ability IT</h2>
                                 <p class="description">Passionate about creating exceptional digital experiences that
                                     blend innovative design with functional development. Let's bring your vision to
@@ -133,59 +134,57 @@ require_once '../database/auth.php';
 
         </section><!-- /Hero Section -->
 
-        <section id="servicos" class="feature-section pt-120">
+        <!-- ======== feature-section start ======== -->
+        <section id="servicos" class="py-5">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-8 col-sm-10">
+                <div class="row text-center justify-content-center">
+
+                    <!-- Card 1 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="single-feature">
-                            <div class="icon">
-                                <i class='bxr  bx-code'></i>
+                            <div class="icon-circle">
+                                <i class='bx bx-code'></i>
                             </div>
                             <div class="content">
-                                <h3>Sites Responsivos</h3>
-                                <p>Sites que se adaptam a qualquer dispositivo, proporcionando a melhor experiência ao
-                                    usuário.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-8 col-sm-10">
-                        <div class="single-feature">
-                            <div class="icon">
-                                <i class='bxr  bx-store-alt-2'></i>
-                            </div>
-                            <div class="content">
-                                <h3>Lojas Virtuais</h3>
-                                <p>Comércio eletrônico moderno com design atrativo e ferramentas para aumentar suas
-                                    vendas.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-8 col-sm-10">
-                        <div class="single-feature">
-                            <div class="icon">
-                                <i class='bxr  bx-pencil-draw'></i>
-                            </div>
-                            <div class="content">
-                                <h3>Otimização SEO</h3>
-                                <p>Melhoramos o posicionamento do seu site no Google e atraímos mais visitantes
-                                    qualificados.</p>
+                                <h5>Sites Responsivos</h5>
+                                <p>Sites que se adaptam a qualquer dispositivo, proporcionando a melhor experiência ao usuário.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-8 col-sm-10">
+                    <!-- Card 2 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
                         <div class="single-feature">
-                            <div class="icon">
-                                <i class='bxr  bx-mobile'></i>
+                            <div class="icon-circle">
+                                <i class='bx bx-store-alt-2'></i>
                             </div>
-                            <div class="content">
-                                <h3>Desenvolvimento Mobile</h3>
-                                <p>Curabitur aliquet quam id dui posuere blandit. Sed porttitor lectus nibh. Vivamus
-                                    magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
-                                    libero malesuada feugiat.</p>
-                            </div>
+                            <h5>Lojas Virtuais</h5>
+                            <p>Comércio eletrônico moderno com design atrativo e ferramentas para aumentar suas vendas.</p>
                         </div>
                     </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="single-feature">
+                            <div class="icon-circle">
+                                <i class='bx bx-pencil'></i>
+                            </div>
+                            <h5>Otimização SEO</h5>
+                            <p>Melhoramos o posicionamento do seu site no Google e atraímos mais visitantes qualificados.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="single-feature">
+                            <div class="icon-circle">
+                                <i class='bx bx-mobile'></i>
+                            </div>
+                            <h5>Desenvolvimento Mobile</h5>
+                            <p>Aplicativos com design moderno e foco em usabilidade, performance e integração com sistemas web.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -262,7 +261,6 @@ require_once '../database/auth.php';
 
                             <div class="cta-section">
                                 <a href="#" class="btn btn-primary">
-                                    <i class="bi bi-download"></i>
                                     Conheça nosso instagram
                                 </a>
                             </div>
@@ -439,7 +437,7 @@ require_once '../database/auth.php';
                                     <li>🔹 Sistema de login seguro para e-commerce</li>
                                     <li>🔹 API RESTful para mobile</li>
                                 </ul>
-                                <div class="icons-rede">
+                                <div class="social-icons">
                                     <a href="https://linkedin.com/in/anacode" target="_blank"
                                         class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
                                     <a href="https://linkedin.com/in/anacode" target="_blank"
@@ -481,7 +479,7 @@ require_once '../database/auth.php';
                                     <li>🔹 Landing page para startup de educação</li>
                                     <li>🔹 Dashboard interativo com React</li>
                                 </ul>
-                                <div class="icons-rede">
+                                <div class="social-icons">
                                     <a href="https://linkedin.com/in/anacode" target="_blank"
                                         class="btn btn-sm btn-outline-dark"> <i class="bi bi-github"></i></a>
                                     <a href="https://linkedin.com/in/anacode" target="_blank"

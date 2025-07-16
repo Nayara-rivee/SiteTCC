@@ -68,7 +68,7 @@
                 <div class="col-12 col-lg-6">
                     <!-- TÍTULO -->
                     <div class="mb-4">
-                        <h3 class="fs-5 text-secondary text-uppercase">Entre em contato</h3>
+                        <h3 class="fs-5 text-uppercase">Entre em contato</h3>
                         <h2 class="display-6 fw-semibold">Para retirar todas as suas dúvidas sobre nossos serviços, entre em contato conosco</h2>
                     </div>
 
