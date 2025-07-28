@@ -503,6 +503,11 @@ transition: 0.5s ease-in-out;
 
 
 /* ====== feature css ====== */
+
+.container h2 span{
+  color: #0ab8a1;
+}
+
 @media (max-width: 767px) {
   .feature-section.pt-120 {
     padding-top: 80px;
@@ -751,7 +756,7 @@ transition: 0.5s ease-in-out;
     }
 
     .header-projetos h1 {
-            color: #0d4f64;
+            color: #0ab8a1;
             font-weight: bold;
     }
 
@@ -874,7 +879,7 @@ transition: 0.5s ease-in-out;
   position: relative;
   z-index: 5;
   background-position: bottom center;
-  background-color: #2e4478;
+  background-color:#0ab8a1a9;
   overflow: hidden;
   padding-top: 70px; 
   width: 100%;
@@ -952,7 +957,7 @@ transition: 0.5s ease-in-out;
     content: '';
     width: 1000%;
     height: 100%;
-    background-color: #7096ca;
+    background-color: #007b8e67;
     -webkit-transform: skewX(20deg);
     -moz-transform: skewX(20deg);
     -ms-transform: skewX(20deg);
@@ -968,7 +973,7 @@ transition: 0.5s ease-in-out;
 .header_hero_content .header_sub_title {
   font-size: 30px;
   font-weight: 800;
-  color: #7096ca;
+  color: #fff;
   letter-spacing: 4px; }
   @media (max-width: 767px) {
     .header_hero_content .header_sub_title {

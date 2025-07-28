@@ -7,7 +7,7 @@
     <title>Heritage Grand Hotel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/css-pages/sites/sitebasico.css">
-    <link rel="stylesheet" href="../css/css-pages/sites/navbar.css">
+    <link rel="stylesheet" href="../css/css-globais/navbar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
@@ -42,17 +42,22 @@
                                     <li class="nav-item">
                                         <a class="page-scroll active" href="../../index.php">Home</a>
                                     </li>
-
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="../pages/planos.php">Planos e Templates</a>
+                                        <a class="page-scroll" href="empresa.php">Serviços</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="planos.php">Planos</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#redes">Redes</a>
+                                        <a class="page-scroll" href="empresa.php">Redes</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="../pages/faleconosco.php">Fale conosco</a>
+                                        <a href="faleconosco.php">Fale conosco</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="empresa.php">Sobre</a>
                                     </li>
 
                                     <li class="nav-item-login">
@@ -104,17 +109,6 @@
             </div>
         </div>
     </div>
-
-    <div class="container section text-center">
-        <div class="highlight-box mx-auto">
-            <h2 class="fw-bold">Venha fazer seu orçamento </h2>
-            <p>Aproveite que você quer um site para seu negócio e faça seu orçamento aqui!</p>
-            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-3">
-                <a href="#orcamento"><button class="btn btn-gold px-4">Faça seu orçamento</button></a>
-            </div>
-        </div>
-    </div>
-
 
     <div class="container section">
         <div class="highlight-box mx-auto" style="max-width: 700px;">

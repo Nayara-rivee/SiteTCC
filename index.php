@@ -201,7 +201,7 @@ require_once 'src/database/auth.php';
     <div class="container py-5">
         <div class="text-center mb-5">
             <small class="text-uppercase text-secondary fw-bold">Planos</small>
-            <h2 class="fw-bold mt-2">Nossos <span class="text-primary">Planos</span></h2>
+            <h2 class="fw-bold mt-2">Nossos <span>Planos</span></h2>
         </div>
 
         <div class="row g-4">
