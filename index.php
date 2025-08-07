@@ -26,6 +26,7 @@ require_once 'src/database/auth.php';
 
     <!-- BOXICON  -->
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- CSS GLOBAL -->
     <!-- <link rel="stylesheet" href="src/css-globais/navbar.css"> -->
@@ -186,10 +187,10 @@ require_once 'src/database/auth.php';
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="single-feature">
                         <div class="icon-circle">
-                            <i class='bx bx-mobile'></i>
+                            <i class="fas fa-universal-access"></i>
                         </div>
-                        <h5>Desenvolvimento Mobile</h5>
-                        <p>Aplicativos com design moderno e foco em usabilidade, performance e integração com sistemas web.</p>
+                        <h5>Acessibilidade</h5>
+                        <p>Aferecemos acessibilidade para todos os tipos de públicos</p>
                     </div>
                 </div>
 
@@ -210,19 +211,18 @@ require_once 'src/database/auth.php';
                 <div class="tour-card position-relative">
                     <div class="position-relative">
                         <img src="src/img/card1.jpg" alt="Beach" class="tour-image">
-                        <span class="price-tag">$2,150</span>
+                        <span class="price-tag">$399,00</span>
                     </div>
                     <div class="p-3">
-                        <h5 class="fw-bold">Serene Beach Retreat</h5>
-                        <p class="small text-muted">Mauris ipsum neque, cursus ac ipsum at, iaculis facilisis ligula.
-                            Suspendisse non sapien vel enim cursus semper.</p>
+                        <h5 class="fw-bold">Plano Básico</h5>
+                        <p class="small text-muted">Ideal para quem está começando sua vida no mercado</p>
                         <div class="mb-2">
-                            <span class="location-badge">Maldives</span>
-                            <span class="location-badge">Seychelles</span>
-                            <span class="location-badge">Bora Bora</span>
+                            <span class="location-badge">Site simples de 1 página</span>
+                            <span class="location-badge">Responsivo</span>
+                            <span class="location-badge">Suporte por e-mail</span>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
-                            <a href="#" class="btn btn-primary btn-sm">Book Now</a>
+                            <a href="./src/pages/planos.php" class="btn btn-primary btn-sm">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -233,19 +233,18 @@ require_once 'src/database/auth.php';
                 <div class="tour-card position-relative">
                     <div class="position-relative">
                         <img src="src/img/card2.jpeg" alt="Arctic" class="tour-image">
-                        <span class="price-tag">$5,700</span>
+                        <span class="price-tag">$799,00</span>
                     </div>
                     <div class="p-3">
-                        <h5 class="fw-bold">Arctic Wilderness Expedition</h5>
-                        <p class="small text-muted">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                            posuere cubilia Curae; Donec dictum non massa nec fermentum.</p>
+                        <h5 class="fw-bold">Plano Intermediário</h5>
+                        <p class="small text-muted">Para pequenas empresas que desejam ter uma integridade e mantimento no mercado</p>
                         <div class="mb-2">
-                            <span class="location-badge">Greenland</span>
-                            <span class="location-badge">Iceland</span>
-                            <span class="location-badge">Norway</span>
+                            <span class="location-badge">Site com até 5 páginas</span>
+                            <span class="location-badge">Design personalizado</span>
+                            <span class="location-badge">Suporte por WhatsApp</span>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
-                            <a href="#" class="btn btn-primary btn-sm">Book Now</a>
+                            <a href="./src/pages/planos.php" class="btn btn-primary btn-sm">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -256,19 +255,38 @@ require_once 'src/database/auth.php';
                 <div class="tour-card position-relative">
                     <div class="position-relative">
                         <img src="src/img/card2.webp" alt="Sahara" class="tour-image">
-                        <span class="price-tag">$1,400</span>
+                        <span class="price-tag">$1.299,00</span>
                     </div>
                     <div class="p-3">
-                        <h5 class="fw-bold">Sahara Desert Discovery</h5>
-                        <p class="small text-muted">Pellentesque euismod tincidunt turpis ac tristique. Em lacus in enim
-                            mollis facilisis vel quis ex.</p>
+                        <h5 class="fw-bold">Plano Pro</h5>
+                        <p class="small text-muted">Para empresas que precisam de mais recursos e querem ainda mais informatização no seu negócio</p>
                         <div class="mb-2">
-                            <span class="location-badge">Morocco</span>
-                            <span class="location-badge">Egypt</span>
-                            <span class="location-badge">Dubai</span>
+                            <span class="location-badge">Site completo com blog</span>
+                            <span class="location-badge">SEO e Analytics</span>
+                            <span class="location-badge">Hospedagem e domínio</span>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
-                            <a href="#" class="btn btn-primary btn-sm">Book Now</a>
+                            <a href="./src/pages/planos.php" class="btn btn-primary btn-sm">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="tour-card position-relative">
+                    <div class="position-relative">
+                        <img src="src/img/card2.webp" alt="Sahara" class="tour-image">
+                        <span class="price-tag">$1.299,00</span>
+                    </div>
+                    <div class="p-3">
+                        <h5 class="fw-bold">Plano Personalizado</h5>
+                        <p class="small text-muted">Crie seu site com a sua própria perspectiva e personalidade</p>
+                        <div class="mb-2">
+                            <span class="location-badge">Versão em inglês/espanhol (tradução + layout)</span>
+                            <span class="location-badge">Design de ícones e logotipo simples </span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="./src/pages/planos.php" class="btn btn-primary btn-sm">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -352,9 +370,9 @@ require_once 'src/database/auth.php';
             <!-- Project 1 Image + Modal Trigger -->
             <div class="col-md-6">
                 <div class="image-container" data-bs-toggle="modal" data-bs-target="#videoModal1">
-                    <img src="src/img/image.png" class="project-img" alt="Project 1">
+                    <img src="src/img/projetos/projeto1.jpeg" class="project-img" alt="Project 1">
                     <div class="play-button">
-                        <i class='bxr  bxs-play' style='color:#ffffff'></i>  
+                        <i class='bxr  bxs-play' style='color:#ffffff'></i>
                     </div>
                 </div>
             </div>
@@ -375,9 +393,9 @@ require_once 'src/database/auth.php';
             <!-- Project 2 Image + Modal Trigger -->
             <div class="col-md-6 order-md-1">
                 <div class="image-container" data-bs-toggle="modal" data-bs-target="#videoModal2">
-                    <img src="src/img/image.png" class="project-img" alt="Project 2">
+                    <img src="src/img/projetos/projeto2.jpeg" class="project-img" alt="Project 2">
                     <div class="play-button">
-                       <i class='bxr  bxs-play' style='color:#ffffff'></i> 
+                        <i class='bxr  bxs-play' style='color:#ffffff'></i>
                     </div>
                 </div>
             </div>

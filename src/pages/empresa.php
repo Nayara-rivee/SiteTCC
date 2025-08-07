@@ -15,6 +15,7 @@ require_once '../database/auth.php';
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/css-pages/empresa.css">
     <link rel="stylesheet" href="../css/css-globais/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -178,10 +179,10 @@ require_once '../database/auth.php';
                     <div class="col-lg-3 col-md-6 mb-4">
                         <div class="single-feature">
                             <div class="icon-circle">
-                                <i class='bx bx-mobile'></i>
+                                <i class="fas fa-universal-access"></i>
                             </div>
-                            <h5>Desenvolvimento Mobile</h5>
-                            <p>Aplicativos com design moderno e foco em usabilidade, performance e integração com sistemas web.</p>
+                            <h5>Acessibilidade</h5>
+                            <p>Aferecemos acessibilidade para todos os tipos de públicos</p>
                         </div>
                     </div>
 

@@ -180,6 +180,26 @@ require_once '../database/auth.php';
                                 </div>
                             </div>
                         </div>
+                        <!-- Slide 4 - Plano Personalizado -->
+                        <div class="carousel-item">
+                            <div class="row align-items-center plano">
+                                <div class="col-md-6">
+                                    <h2 class="fw-bold">Plano Personalizado</h2>
+                                    <p>
+                                        Crie seu site com a sua própria perspectiva e personalidade
+                                    </p>
+                                    <ul>
+                                        <li>Faça seu site personalizado do jeitinho <br>
+                                        que você sempre sonhou, com tudo que você deseja</li>
+                                        <li><a href="#planopersonalizado" class="text-light ">Faça seu orçamento conosco</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 position-relative">
+                                    <img src="../img/planos/site_personalizado.avif" class="d-block w-60 rounded shadow"
+                                        alt="Plano Profissional" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Botões de navegação -->
@@ -240,60 +260,55 @@ require_once '../database/auth.php';
 
     <!--tipo dos sites -->
 
-    <div class="container2 py-5">
-        <div class="text-center mb-5">
-            <small class="text-uppercase text-secondary fw-bold">NOSSOS</small>
-            <h2 class="fw-bold mt-2">Modelos de <span class="text-primary">Site</span></h2>
-        </div>
-        <div class="sites row g-4">
+    <section class="py-5 text-center">
+        <h6 class="text-muted">NOSSOS</h6>
+        <h2 class="fw-bold">Modelos de <span class="text-primary">Site</span></h2>
+    </section>
 
-            <!-- === PLANO BÁSICO === -->
-            <div class="plano col-md-4">
-                <div class="card-site p-3 text-center shadow-sm">
-                    <h5>Plano Básico</h5>
-                    <div class="site-preview" id="preview-basico">
-                        <div class="header bg-dark"></div>
-                        <div class="d-flex" style="flex: 1; gap: 5px;">
-                            <div class="sidebar bg-dark"></div>
-                            <div class="content bg-secondary"></div>
-                        </div>
-                        <div class="footer bg-dark"></div>
+    <div class="container pb-5">
+        <div class="row g-4">
+
+            <!-- Plano Básico -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="../img/planos/site_basico.webp" class="card-img-top" alt="Plano Básico">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Plano Básico</h5>
+                        <a href="sitebasico.php" class="btn btn-saiba-mais mt-2">Saiba mais</a>
                     </div>
-                    <a href="sitebasico.php"><button class="btn-saiba">Saiba mais</button></a>
                 </div>
             </div>
 
-            <!-- === PLANO INTERMEDIÁRIO === -->
-            <div class="plano col-md-4">
-                <div class="card-site p-3 text-center shadow-sm">
-                    <h5>Plano Intermediário</h5>
-                    <div class="site-preview" id="preview-intermediario">
-                        <div class="header bg-primary"></div>
-                        <div class="d-flex justify-content-between" style="flex: 1; gap: 5px;">
-                            <div class="box bg-primary w-25"></div>
-                            <div class="box bg-primary w-25"></div>
-                            <div class="box bg-primary w-25"></div>
-                        </div>
-                        <div class="footer bg-primary"></div>
+            <!-- Plano Intermediário -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="../img/planos/site_intermediario.webp" class="card-img-top" alt="Plano Intermediário">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Plano Intermediário</h5>
+                        <a href="siteintermedio.php" class="btn btn-saiba-mais mt-2">Saiba mais</a>
                     </div>
-                    <a href="siteintermedio.php"><button class="btn-saiba">Saiba mais</button></a>
                 </div>
             </div>
 
-            <!-- === PLANO PRO === -->
-            <div class="plano col-md-4">
-                <div class="card-site p-3 text-center shadow-sm">
-                    <h5>Plano Pro</h5>
-                    <div class="site-preview" id="preview-pro">
-                        <div class="header bg-success"></div>
-                        <div class="box bg-success w-100"></div>
-                        <div class="d-flex justify-content-between" style="gap: 5px;">
-                            <div class="box bg-success w-50"></div>
-                            <div class="box bg-success w-50"></div>
-                        </div>
-                        <div class="footer bg-success"></div>
+            <!-- Plano Pro -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="../img/planos/site_pro.jpg" class="card-img-top" alt="Plano Pro">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Plano Pro</h5>
+                        <a href="sitepro.php" class="btn btn-saiba-mais mt-2">Saiba mais</a>
                     </div>
-                    <a href="sitepro.php"><button class="btn-saiba">Saiba mais</button></a>
+                </div>
+            </div>
+
+            <!-- Plano Personalizado -->
+            <div id="planopersonalizado" class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="../img/planos/site_personalizado.avif" class="card-img-top" alt="Plano Personalizado">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Plano Personalizado</h5>
+                        <a href="sitepersonalizado.php" class="btn btn-saiba-mais mt-2">Saiba mais</a>
+                    </div>
                 </div>
             </div>
 
@@ -301,8 +316,10 @@ require_once '../database/auth.php';
     </div>
 
 
+
     <script src="../js/mod.js"></script>
     <script src="../js/planoseprodutos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Bootstrap + Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>

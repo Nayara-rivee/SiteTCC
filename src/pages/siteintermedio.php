@@ -165,7 +165,7 @@
                 <div class="info-card">
                     <div class="feature-icon"><i class="bi bi-clock"></i></div>
                     <h6 class="fw-bold">Que horas estamos em espediente?</h6>
-                    <p>12:00 PM - 18:00 PM</p>
+                    <p>Entre em contato conosco acesse esses horários: <br><strong> 12:00 PM - 18:00 PM</strong></p>
                 </div>
             </div>
         </div>

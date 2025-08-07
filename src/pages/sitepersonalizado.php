@@ -88,24 +88,6 @@
                 <p class="text-light">O Plano Básico é ideal para quem está começando e precisa de uma presença digital eficaz e econômica. Com um site simples de uma página, responsivo e com suporte por e-mail, você terá um ponto de partida sólido para apresentar seus serviços ou ideias de forma clara e objetiva.</p>
                 <p class="text-light">Este plano foi desenvolvido para facilitar o primeiro passo no mundo digital, oferecendo uma solução prática, acessível e eficiente para quem busca iniciar sua jornada online com segurança e qualidade.</p>
 
-                <div class="row g-4">
-                    <div class="col-6">
-                        <div><strong class="text-light">Plano Básico</strong><br><small class="text-light">Ideal para quem está começando</small></div>
-                    </div>
-                    <div class="col-6">
-                        <div><strong class="text-light">Como é</strong><br><small class="text-light">Site simples de 1 página</small></div>
-                    </div>
-                    <div class="col-6">
-                        <div><strong class="text-light">É responsivo?</strong><br><small class="text-light">É Responsivo</small></div>
-                    </div>
-                    <div class="col-6">
-                        <div><strong class="text-light">Suporte</strong><br><small class="text-light">Suporte por e-mail</small></div>
-                    </div>
-                    <div class="col-6">
-                        <div><strong class="text-light">Custo</strong><br><small class="text-light">R$ 399,00</small></div>
-                    </div>
-                </div>
-                <a href="#orcamento" class="btn btn-gold mt-4">Faça seu orçamento →</a>
             </div>
         </div>
     </div>
